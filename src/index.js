@@ -34,7 +34,7 @@ menuButton.addEventListener('click', buildMenu)
 
 aboutButton.addEventListener('click', buildAbout)
 
-contactButton.addEventListener('click', buildContant)
+contactButton.addEventListener('click', buildContact)
 
 // build page functions
 
@@ -85,7 +85,7 @@ function buildAbout() {
     
 }
 
-function buildContant() {
+function buildContact() {
     mainHeading.innerHTML = "Contact"
     mainParagraph.innerHTML = ''
 
